@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .logo{text-align: center;
+              margin: 20px auto;
+
+        }
+        .container{
+            background-color: antiquewhite;
+            width: 1000px;
+            text-align: center;
+            margin: auto;
+        }
+        .placeholder{
+            width: 70%;
+            text-align: center;
+        }
+        .float{
+            float:left;
+            margin: auto;
+
+            
+        }
+        /* .arama{
+            border: 1px solid blue;
+            width: 23%;
+            float: left;
+            
+            margin: 30px 90px ;
+           
+           
+        } */
+       .flex{
+           display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 5px;
+          
+         
+
+       }
+       .arama{
+           width: 25%;
+             border: 1px solid blue;
+            
+
+             
+            
+       }
+       .box{
+           width: 200px;
+           height: 200px;
+           background-color: aquamarine;
+           width: 33%;
+           border: 1px solid #fff;
+           text-align: center;
+           padding: 20px;
+       }
+       .boxs{
+           display: flex;
+           margin: 10px;
+
+       }
+       li{
+           list-style: none;
+       }
+       footer{ text-align: center;}
+    </style>
+</head>
+<body>
+<!-- logo -->
+<header  class="logo">  
+<img src="img/google.jpg" alt="google" title="google">
+</header>
+<!-- arama bölümü -->
+<section>
+    <div class="container">
+        <h3>Search the web using google!</h3>
+        <div>  <input class="placeholder" >  </div>
+            <div class="flex">  
+                <div class="arama">Google Search</div>
+                <div class="arama">I'am feeling lucky</div>
+                <div style="clear: both;"></div>
+            </div>
+            <div class="boxs">
+                <div class=" box box-1">
+                    <ul>
+                        <li>Special Searches</li>
+                        <li><a href="#">Stanford Searches</a></li>
+                        <li><a href="#">Stanford Search</a></li>
+                     </ul>
+                 </div>
+                <div class=" box box-2">
+                    <ul>
+                        <li>Special Searches</li>
+                        <li><a href="#">Stanford Searches</a></li>
+                        <li><a href="#">Stanford Search</a></li>
+                     </ul>
+                 </div>
+                <div class=" box box-3">
+                    
+                    <h3>Get Google</h3>
+                    <h3>updates monthly</h3>
+                    <input style="display: block; text-align: center; margin: auto;" type="text" placeholder="your e-mail">
+                    <button style="background-color: red;" type="submit">Subscribe<button> <span>Archive</span>
+                 </div>
+                
+            </div>
+            <footer>
+                <div>
+                    Copyrright&1998 Google
+                </div>
+            </footer>
+    </div>
+</section>
+
+    <!-- footer kısmı -->
+</body>
+</html>
